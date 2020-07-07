@@ -39,7 +39,7 @@ public class Grid : MonoBehaviour
         {
             offset = hexHeight / 2;
         }
-        float x = startPos.x + gridCount.x * hexWidth;
+        float x = startPos.x + gridCount.x * (hexWidth*3/4);
         float y = startPos.y - gridCount.y * hexHeight + offset;
         return new Vector3(x, y, 0);
     }
@@ -49,14 +49,14 @@ public class Grid : MonoBehaviour
         int count = 0;
         for(int y=0; y< gridYCount; y++)
         {
-            for(int x=0; x< gridXCount; x++)
+            for (int x = 0; x < gridXCount; x++)
             {
                 Transform hex = Instantiate(hexPrefab) as Transform;
                 Vector2 gridCount = new Vector2(x, y);
-                hex.position = CalcWorldPos(gridCount);
+                hex.parent = this.transform;
+                hex.localScale = Vector3.one;
+                hex.localPosition= CalcWorldPos(gridCount);
                 Debug.Log(CalcWorldPos(gridCount).ToString());
-                    hex.parent = this.transform;
-
                 hex.name = "Node_" + count++;
                 Debug.Log(hex.name + hex.position.ToString());
             }
