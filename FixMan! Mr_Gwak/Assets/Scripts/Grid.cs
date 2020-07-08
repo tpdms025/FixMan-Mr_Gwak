@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Grid : MonoBehaviour
 {
-    public Transform hexPrefab;
+    public GameObject hexPrefab;
 
     public int gridXCount = 11;
     public int gridYCount = 11;
@@ -15,12 +15,16 @@ public class Grid : MonoBehaviour
 
     Vector3 startPos;
 
+    public Transform topNode;
+    private int topIndex = 0;
+
     private void Start()
     {
         //AddGap();
         CalcStartPos();
         CreateGrid();
     }
+
     private void AddGap()
     {
         hexWidth += hexWidth * gap;
@@ -32,15 +36,15 @@ public class Grid : MonoBehaviour
         startPos = Vector3.zero;
     }
 
-    private Vector3 CalcWorldPos(Vector2 gridCount)
+    private Vector3 CalcLocalPos(Vector2 Pos)
     {
         float offset = 0;
-        if (gridCount.x % 2 != 0)
+        if (Pos.x % 2 != 0)
         {
             offset = hexHeight / 2;
         }
-        float x = startPos.x + gridCount.x * (hexWidth*3/4);
-        float y = startPos.y - gridCount.y * hexHeight + offset;
+        float x = startPos.x + Pos.x * (hexWidth*3/4);
+        float y = startPos.y - Pos.y * hexHeight + offset;
         return new Vector3(x, y, 0);
     }
 
@@ -51,22 +55,34 @@ public class Grid : MonoBehaviour
         {
             for (int x = 0; x < gridXCount; x++)
             {
-                Transform hex = Instantiate(hexPrefab) as Transform;
-                Vector2 gridCount = new Vector2(x, y);
-                hex.parent = this.transform;
-                hex.localScale = Vector3.one;
-                hex.localPosition= CalcWorldPos(gridCount);
-                Debug.Log(CalcWorldPos(gridCount).ToString());
+                //GameObject hex = Instantiate(hexPrefab) as GameObject;
+                GameObject hex = NGUITools.AddChild(this.transform.gameObject, hexPrefab);
+                Vector2 pos = new Vector2(x, y);
+                //hex.parent = this.transform;
+                hex.transform.SetParent( this.transform);
+                hex.transform.localScale = Vector3.one;
+                hex.transform.localPosition = CalcLocalPos(pos);
                 hex.name = "Node_" + count++;
-                Debug.Log(hex.name + hex.position.ToString());
+                
+                Debug.Log(hex.name + hex.transform.position.ToString());
             }
         }
     }
 
-    private void PushRowNodes()
+    
+
+    public void AddRowNodes()
     {
+        int count = 0;
+
+        for (int x = 0; x<gridXCount; x++)
+        {
+            GameObject hex = NGUITools.AddChild(this.transform.gameObject, hexPrefab);
+            Vector3 localPos = CalcLocalPos(new Vector2(x, 0));
+            hex.transform.position = hex.transform.TransformPoint(hex.transform.InverseTransformPoint(topNode.transform.position) + localPos);
+            hex.name = "new Node"+count++;
+        }
 
     }
 
-  
 }

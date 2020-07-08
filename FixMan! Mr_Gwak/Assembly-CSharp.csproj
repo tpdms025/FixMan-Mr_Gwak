@@ -229,7 +229,10 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Scripts\Grid.cs" />
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Grid_Loop.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseWindow.cs" />
+    <Compile Include="Assets\Scripts\UI\TopPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
