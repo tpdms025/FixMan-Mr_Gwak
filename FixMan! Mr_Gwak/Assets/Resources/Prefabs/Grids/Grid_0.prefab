@@ -87,7 +87,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_3-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5787941419696932770
@@ -528,7 +528,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &171585588593115046
@@ -675,7 +675,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5327372333339486039
@@ -822,7 +822,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &7505969261992724348
@@ -987,6 +987,18 @@ MonoBehaviour:
   hexWidth: 200
   hexHeight: 176
   gap: 0
+  nodes:
+  - 00000
+  - 01212
+  - 01200
+  - 00000
+  - 01300
+  - 02040
+  - 10042
+  - 41200
+  - 00000
+  - 00004
+  - 00012
   Creation: 0
 --- !u!1 &1839969031261858039
 GameObject:
@@ -1222,7 +1234,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &8737020003498403134
@@ -1369,7 +1381,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &3683703065198822328
@@ -1663,7 +1675,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &249531778084735392
@@ -1810,7 +1822,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5860741089664376396
@@ -1957,7 +1969,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &7165276208705839727
@@ -2104,7 +2116,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_3-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5193824871345397149
@@ -2251,7 +2263,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_2-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &1271558819239915971
@@ -2398,7 +2410,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_2-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &8446530801308027780
@@ -2545,7 +2557,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &1445106785307538995
@@ -2692,7 +2704,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5801389534160155661
@@ -2839,7 +2851,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_2-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &4991769278918412886
@@ -2986,7 +2998,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_4-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &2098012637859143630
@@ -3721,7 +3733,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &2383289936464353104
@@ -4162,7 +4174,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &4622748117858363605
@@ -4309,7 +4321,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &4816637367011876789
@@ -4456,7 +4468,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_3-3
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &3726242215499021402
@@ -4603,7 +4615,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_3-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &1623260738967722326
@@ -4750,7 +4762,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_2-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &3831513384765530994
@@ -4897,7 +4909,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &8850514311200370591
@@ -5191,7 +5203,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &8333016437550622683
@@ -5338,7 +5350,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_4-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5520368212281413407
@@ -5926,7 +5938,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_2-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &956273347152235899
@@ -6073,7 +6085,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &6968995254922807703
@@ -6220,7 +6232,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &3865718935170601088
@@ -6367,7 +6379,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &7272817021273476399
@@ -6661,7 +6673,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_4-0
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &8149005312223924791
@@ -6808,7 +6820,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_3-3
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &7116247957912957931
@@ -6955,7 +6967,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &9042260786820744985
@@ -7102,7 +7114,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &8609645423119852021
@@ -7984,7 +7996,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &7989659805148988469
@@ -8131,7 +8143,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_1-0
+  mSpriteName: node_1-1
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5990793522978189100

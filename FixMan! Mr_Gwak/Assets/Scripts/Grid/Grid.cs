@@ -15,26 +15,39 @@ public class Grid : MonoBehaviour
 
     private Vector3 startPos;
 
-    [Header("Create Grid")]
-    [SerializeField]
-    private bool Creation = true;
+    [Header("Node Information")]
+    [Tooltip("0:None\n1:Common\n2:Rare\n3:Unique\n4:Legendary")]
+    public string nodesTypeString;
+    private List<int> nodesType = new List<int>();
 
-    private Transform topNode;
+
+    [SerializeField] private bool Creation = false;
+
 
     private void Start()
     {
-        if (Creation)
-        {
-        //AddGap();
-            CalcStartPos();
-            CreateGrid();
-        }
+
     }
 
     private void AddGap()
     {
         hexWidth += hexWidth * gap;
         hexHeight += hexHeight * gap;
+    }
+
+    public void GenerateGrid()
+    {
+        if (!Creation)
+        {
+            //AddGap();
+            CalcStartPos();
+            CreateGrid();
+            Creation = true;
+        }
+        else
+        {
+
+        }
     }
 
     private void CalcStartPos()
@@ -62,17 +75,25 @@ public class Grid : MonoBehaviour
             for (int x = 0; x < gridXCount; x++)
             {
                 //GameObject hex = Instantiate(hexPrefab) as GameObject;
-                GameObject hex = NGUITools.AddChild(this.transform.gameObject, hexPrefab);
+                Node hex = NGUITools.AddChild(this.transform.gameObject, hexPrefab).GetComponent<Node>();
                 Vector2 pos = new Vector2(x, y);
                 hex.transform.SetParent( this.transform);
                 hex.transform.localScale = Vector3.one;
                 hex.transform.localPosition = CalcLocalPos(pos);
                 hex.name = "Node_" + count++;
-                
             }
         }
     }
 
+    private void SettingNode()
+    {
+        for(int i=0; i< gridYCount*gridXCount; i++)
+        {
+            
+        }
+    }
+
+    private Transform topNode;
     public void AddRowNodes()
     {
         int count = 0;

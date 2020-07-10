@@ -14,9 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: b79eb2a2e0262474d9167c830d1d0ee5, type: 2}
   mSprites:
+  - name: bg
+    x: 0
+    y: 383
+    width: 361
+    height: 641
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: FillButton
     x: 0
-    y: 43
+    y: 273
     width: 112
     height: 109
     borderLeft: 0
@@ -27,9 +40,22 @@ MonoBehaviour:
     paddingRight: 2
     paddingTop: 2
     paddingBottom: 2
+  - name: HP
+    x: 0
+    y: 201
+    width: 82
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: Pause_normal
-    x: 372
-    y: 193
+    x: 0
+    y: 137
     width: 56
     height: 63
     borderLeft: 0
@@ -42,7 +68,7 @@ MonoBehaviour:
     paddingBottom: 7
   - name: PauseButton_Normal
     x: 113
-    y: 46
+    y: 276
     width: 108
     height: 106
     borderLeft: 0
@@ -53,18 +79,70 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: TopPanel
-    x: 0
-    y: 153
-    width: 371
-    height: 103
-    borderLeft: 18
-    borderRight: 18
-    borderTop: 9
-    borderBottom: 20
-    paddingLeft: 2
-    paddingRight: 2
-    paddingTop: 2
-    paddingBottom: 2
+  - name: time bar_4
+    x: 222
+    y: 299
+    width: 74
+    height: 83
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Timer_Background
+    x: 362
+    y: 749
+    width: 877
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Timer_bear
+    x: 297
+    y: 325
+    width: 62
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Timer_Foreground
+    x: 362
+    y: 703
+    width: 848
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TopPanel_Background
+    x: 362
+    y: 824
+    width: 1080
+    height: 200
+    borderLeft: 11
+    borderRight: 11
+    borderTop: 15
+    borderBottom: 15
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

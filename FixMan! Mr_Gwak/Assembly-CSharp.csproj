@@ -230,6 +230,7 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Grid\Grid.cs" />
+    <Compile Include="Assets\Scripts\Grid\GridGenerateButton.cs" />
     <Compile Include="Assets\Scripts\Grid\GridManager.cs" />
     <Compile Include="Assets\Scripts\Grid\Node.cs" />
     <Compile Include="Assets\Scripts\TouchEvent.cs" />
