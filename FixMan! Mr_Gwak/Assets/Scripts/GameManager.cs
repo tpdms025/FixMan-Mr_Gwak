@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public int bestScroe;
+    public int bestScore;
     public int _currentScore;
     public int currentScore
     {
@@ -12,15 +12,13 @@ public class GameManager : MonoBehaviour
         set
         {
             _currentScore = value;
-            if(_currentScore > bestScroe)
+            if(_currentScore > bestScore)
             {
-                bestScroe = _currentScore;
+                bestScore = _currentScore;
+                PlayerPrefs.SetInt("BestScore", bestScore);
             }
         }
     }
-
-
-
 
     static private GameManager instance =null;
     static public GameManager Inst
@@ -44,4 +42,19 @@ public class GameManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
     }
+
+
+    public void Save()
+    {
+
+    }
+    public void Load()
+    {
+       if( PlayerPrefs.HasKey("BestScore"))
+        {
+
+        }
+
+    }
+
 }

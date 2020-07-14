@@ -268,20 +268,20 @@ MonoBehaviour:
   leftAnchor:
     target: {fileID: 0}
     relative: 0
-    absolute: 0
+    absolute: 221
   rightAnchor:
     target: {fileID: 0}
     relative: 1
-    absolute: 0
+    absolute: -156
   bottomAnchor:
     target: {fileID: 0}
     relative: 0
-    absolute: 0
+    absolute: 11
   topAnchor:
     target: {fileID: 0}
     relative: 1
-    absolute: 0
-  updateAnchors: 1
+    absolute: 31
+  updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 62
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dd59d90d6d215f478795d18f5e528d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bestScroe: 0
+  bestScore: 0
   _currentScore: 0
 --- !u!4 &451486273
 Transform:
@@ -2140,6 +2140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208174696692446766, guid: 0736bf489a7185948808c2443481f961,
+        type: 3}
+      propertyPath: nodedd.Array.size
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0736bf489a7185948808c2443481f961, type: 3}
