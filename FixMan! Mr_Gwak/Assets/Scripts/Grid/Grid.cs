@@ -21,13 +21,9 @@ public class Grid : MonoBehaviour
     private List<int> nodesType = new List<int>();
 
 
-    [SerializeField] private bool Creation = false;
+    public bool Update = true;
 
 
-    private void Start()
-    {
-
-    }
 
     private void AddGap()
     {
@@ -35,19 +31,13 @@ public class Grid : MonoBehaviour
         hexHeight += hexHeight * gap;
     }
 
+
     public void GenerateGrid()
     {
-        if (!Creation)
-        {
-            //AddGap();
-            CalcStartPos();
-            CreateGrid();
-            Creation = true;
-        }
-        else
-        {
-
-        }
+        //AddGap();
+        CalcStartPos();
+        CreateGrid();
+        Update = true;
     }
 
     private void CalcStartPos()
@@ -93,6 +83,7 @@ public class Grid : MonoBehaviour
         }
     }
 
+    #region 사용미정
     private Transform topNode;
     public void AddRowNodes()
     {
@@ -107,5 +98,6 @@ public class Grid : MonoBehaviour
         }
 
     }
+    #endregion
 
 }
