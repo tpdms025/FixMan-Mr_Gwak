@@ -1,11 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseWindow : MonoBehaviour
 {
-    public void GamePlay()
+    /// <summary>
+    /// Home Button
+    /// </summary>
+    public void LoadHomeScene()
     {
-        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("HomeScene");
     }
+
+    public void RePlay()
+    {
+        SceneManager.LoadScene("PlayScene");
+    }
+    
 }

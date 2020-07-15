@@ -6,7 +6,6 @@ using System;
 
 public class UIManager : MonoBehaviour
 {
-
     public void ToggleWindow(GameObject _obj)
     {
         GameObject obj = _obj;
@@ -22,6 +21,12 @@ public class UIManager : MonoBehaviour
     public void TimePause()
     {
         Time.timeScale = Time.timeScale == 1 ? 0 : 1;
+    }
+
+    //수정중
+    public void Vibrate()
+    {
+        Vibration.Vibrate();
     }
 
 }

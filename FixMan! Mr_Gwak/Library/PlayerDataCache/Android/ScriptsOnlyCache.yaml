@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - GridManager
     - NGUIAtlas
     - NGUIFont
+    - Node
     - TopPanel
     - UIButton
     - UICamera
@@ -62,27 +63,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 11848}
     - Class: 114
-      Script: {instanceID: 12180}
+      Script: {instanceID: 12184}
     - Class: 114
-      Script: {instanceID: 12356}
+      Script: {instanceID: 12360}
     - Class: 114
-      Script: {instanceID: 12392}
+      Script: {instanceID: 12396}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 12426}
     - Class: 114
-      Script: {instanceID: 12996}
+      Script: {instanceID: 12912}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 13002}
     - Class: 114
-      Script: {instanceID: 13384}
+      Script: {instanceID: 13324}
     - Class: 114
-      Script: {instanceID: 13406}
+      Script: {instanceID: 13390}
     - Class: 114
-      Script: {instanceID: 13544}
+      Script: {instanceID: 13412}
+    - Class: 114
+      Script: {instanceID: 13550}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -104,7 +107,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 1b039378d7c454bcfe3774b3151cb9d4
+      Hash: 10a7c1cf008c2ef315bc7912bee827fb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Grid
@@ -146,7 +149,7 @@ ScriptsOnlyBuild:
     className: UIPanel
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 38063dbd31f046ca9eb714d77f6f67a9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -680,6 +683,12 @@ ScriptsOnlyBuild:
     className: UIShowControlScheme
   - hash:
       serializedVersion: 2
+      Hash: cd1ab830389d9d3ed8e8b274a977eab1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Node
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1088,7 +1097,7 @@ ScriptsOnlyBuild:
     className: UIKeyBinding
   - hash:
       serializedVersion: 2
-      Hash: c618bb3b19f3f65fa2924dbc3eca555d
+      Hash: 83ae22de83baa6ac6f9daf944efe7356
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GridManager
@@ -1287,4 +1296,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/PlayScene.unity
-  playerPath: C:/Users/admin/Desktop/FixMan! Mr_Gwak/APK/FixMan_APK/FixMan_fristTest.apk
+  playerPath: C:/Users/admin/Desktop/FixMan! Mr_Gwak/APK/FixMan_APK/FixMan_secondTest.apk

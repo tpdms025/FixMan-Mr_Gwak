@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -31,6 +32,12 @@ public class Grid : MonoBehaviour
         hexHeight += hexHeight * gap;
     }
 
+    private void TypeParsing(string str)
+    {
+        string[] separator = new string[1] { "\r\n" };  //분리할 기준 문자열
+        string[] _datas = str.Split(separator, StringSplitOptions.RemoveEmptyEntries);
+        string[] datas = _datas[0].Split('^');
+    }
 
     public void GenerateGrid()
     {
