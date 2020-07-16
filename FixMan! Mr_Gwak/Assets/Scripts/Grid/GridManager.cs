@@ -18,8 +18,8 @@ public class GridManager : MonoBehaviour
 
     private GameObject selectLine;
 
-    [SerializeField] private GameObject _curNode;
-    public GameObject curNode
+    [SerializeField] private Node _curNode = null;
+    public Node curNode
     {
         get { return _curNode; }
         set
@@ -75,8 +75,8 @@ public class GridManager : MonoBehaviour
     /// <summary>
     /// 흰색 라인 위치를 현재노드 위치로 변경한다.
     /// </summary>
-    /// <param name="_curNode"></param>
-    public void ChangeSelectLine(GameObject _curNode)
+    /// <param name="_curNode"> 현재 선택된 노드</param>
+    public void ChangeSelectLine(Node _curNode)
     {
         selectLine.transform.SetParent(_curNode.transform);
         selectLine.transform.localPosition = Vector3.zero;

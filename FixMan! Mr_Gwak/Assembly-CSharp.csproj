@@ -232,7 +232,7 @@
     <Compile Include="Assets\Scripts\Grid\Grid.cs" />
     <Compile Include="Assets\Scripts\Grid\GridManager.cs" />
     <Compile Include="Assets\Scripts\Grid\Node.cs" />
-    <Compile Include="Assets\Scripts\Grid\NodeData.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\UI\PauseWindow.cs" />
     <Compile Include="Assets\Scripts\UI\TopPanel.cs" />

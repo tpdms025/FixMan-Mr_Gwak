@@ -27,9 +27,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: node_0-0
+    x: 227
+    y: 850
+    width: 198
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: node_1-0
-    x: 0
-    y: 472
+    x: 426
+    y: 850
     width: 198
     height: 174
     borderLeft: 0
@@ -54,8 +67,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: node_2-0
-    x: 199
-    y: 472
+    x: 824
+    y: 850
     width: 198
     height: 174
     borderLeft: 0
@@ -81,7 +94,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: node_2-2
     x: 0
-    y: 297
+    y: 472
     width: 198
     height: 174
     borderLeft: 0
@@ -93,6 +106,32 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: node_3-0
+    x: 0
+    y: 297
+    width: 198
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: node_3-1
+    x: 0
+    y: 122
+    width: 198
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: node_3-2
     x: 199
     y: 647
     width: 198
@@ -105,35 +144,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: node_3-1
-    x: 426
-    y: 850
-    width: 198
-    height: 174
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: node_3-2
+  - name: node_3-3
     x: 398
     y: 647
-    width: 198
-    height: 174
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: node_3-3
-    x: 227
-    y: 850
     width: 198
     height: 174
     borderLeft: 0
@@ -158,19 +171,6 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: node_4-1
-    x: 824
-    y: 850
-    width: 198
-    height: 174
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: node_4-2
     x: 796
     y: 647
     width: 198
@@ -183,9 +183,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: node_4-2
+    x: 199
+    y: 472
+    width: 198
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: node_4-3
-    x: 0
-    y: 122
+    x: 199
+    y: 297
     width: 198
     height: 174
     borderLeft: 0
@@ -198,7 +211,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: node_4-4
     x: 199
-    y: 297
+    y: 122
     width: 198
     height: 174
     borderLeft: 0
