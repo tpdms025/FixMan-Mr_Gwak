@@ -7,13 +7,18 @@ public class TopPanel : MonoBehaviour
     private UISlider timer;
     private UILabel timeLabel;
 
-    private float time = 100.0f;
+    private UILabel scoreLabel;
+
+    [SerializeField] private float time = 100.0f;
     private float curTime;
+
+    
 
     private void Awake()
     {
         timer = transform.Find("Timer").GetComponent<UISlider>();
-        timeLabel = GetComponentInChildren<UILabel>();
+        timeLabel = timer.GetComponentInChildren<UILabel>();
+        scoreLabel = transform.Find("ScoreLabel").GetComponent<UILabel>();
 
         curTime = time;
     }
@@ -35,6 +40,15 @@ public class TopPanel : MonoBehaviour
 
         //game clear!
 
+    }
+
+    /// <summary>
+    /// 점수 변경
+    /// </summary>
+    /// <returns></returns>
+    public void ChangeScore(int score)
+    {
+        scoreLabel.text = score.ToString();
     }
 
     public void ChangeProgressBar()

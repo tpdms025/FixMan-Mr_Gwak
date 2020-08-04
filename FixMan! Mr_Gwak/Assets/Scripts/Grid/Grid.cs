@@ -17,9 +17,9 @@ public class Grid : MonoBehaviour
     private Vector3 startPos;
 
     [Header("Node Information")]
-    [Tooltip("0:None\n1:Level4\n2:Level3\n3:Level2\n4:Level1")]
+    [Tooltip("0:None\n1:Level3\n2:Level2\n3:Level1")]
     public string nodesTypeString;
-    [SerializeField] private NodeType[] nodesType;
+    [SerializeField] private NodeType[] typeArray;
 
 
     public bool Update = true;
@@ -66,7 +66,7 @@ public class Grid : MonoBehaviour
     #region Create Grid (Custom Editor Version)
     public void GenerateGrid()
     {
-        nodesType = StringToNodeTypeArray(nodesTypeString);
+        typeArray = StringToNodeTypeArray(nodesTypeString);
 
         CalcStartPos();
         CreateGrid();
@@ -107,7 +107,7 @@ public class Grid : MonoBehaviour
                 hex.transform.localPosition = CalcLocalPos(pos);
                 hex.name = "Node_" + count++;
 
-                hex.Setting(nodesType[y * gridXCount + x], hex.transform.localPosition);
+                hex.Setting(typeArray[y * gridXCount + x], hex.transform.localPosition);
             }
         }
     }

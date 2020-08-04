@@ -6,6 +6,14 @@ using System;
 
 public class UIManager : MonoBehaviour
 {
+
+    public TopPanel topPanel;
+
+    private void Awake()
+    {
+        topPanel = transform.Find("TopPanel").GetComponent<TopPanel>();
+    }
+
     public void ToggleWindow(GameObject _obj)
     {
         GameObject obj = _obj;

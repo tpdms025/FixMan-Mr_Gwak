@@ -4,23 +4,29 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    public UIManager uIManager;
+
     public int bestScore;
-    public int _currentScore;
+    private int _currentScore;
     public int currentScore
     {
         get { return _currentScore; }
         set
         {
             _currentScore = value;
-            if(_currentScore > bestScore)
+            if (_currentScore > bestScore)
             {
                 bestScore = _currentScore;
+                //db저장
                 PlayerPrefs.SetInt("BestScore", bestScore);
+                //점수 출력
+                uIManager.topPanel.ChangeScore(_currentScore);
             }
         }
     }
 
-    static private GameManager instance =null;
+    static private GameManager instance = null;
     static public GameManager Inst
     {
         get { return instance; }
@@ -36,11 +42,13 @@ public class GameManager : MonoBehaviour
         {
             Inst = this;
         }
-        else if(Inst != this)
+        else if (Inst != this)
         {
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
+
+        uIManager = GameObject.Find("UI Root").transform.Find("UI").GetComponent<UIManager>();
     }
 
 
@@ -50,7 +58,7 @@ public class GameManager : MonoBehaviour
     }
     public void Load()
     {
-       if( PlayerPrefs.HasKey("BestScore"))
+        if (PlayerPrefs.HasKey("BestScore"))
         {
 
         }

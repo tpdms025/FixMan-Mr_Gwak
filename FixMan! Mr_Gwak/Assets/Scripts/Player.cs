@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
         gridManager = GameObject.FindGameObjectWithTag("GridManager").GetComponent<GridManager>();
     }
 
-    //player
+
     public void FillHoney()
     {
         if (gridManager.curNode == null) return;
@@ -53,6 +53,15 @@ public class Player : MonoBehaviour
         if (gridManager.curNode.curFillCount < gridManager.curNode.fillCount)
         {
             gridManager.curNode.curFillCount++;
+            
+            //combo
+
+
+            //score up
+            if (gridManager.curNode.curFillCount == gridManager.curNode.fillCount)
+            {
+                GameManager.Inst.currentScore+= gridManager.curNode.score;
+            }
         }
         else
         {

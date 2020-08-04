@@ -694,7 +694,7 @@ MonoBehaviour:
   hexHeight: 176
   gap: 0
   nodesTypeString: 1400001110020002040221303040100044330002222
-  nodesType: 01000000040000000000000000000000000000000000000001000000010000000100000000000000000000000200000000000000000000000000000002000000000000000400000000000000020000000200000001000000030000000000000003000000000000000400000000000000010000000000000000000000000000000400000004000000030000000300000000000000000000000000000002000000020000000200000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  typeArray: 
   Update: 1
 --- !u!1 &1310385968240789994
 GameObject:
@@ -3723,7 +3723,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_4-0
+  mSpriteName: node_3-0
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &2889468005843328904
@@ -4017,7 +4017,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_4-0
+  mSpriteName: node_3-0
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5733222500979155082
@@ -5340,7 +5340,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_4-0
+  mSpriteName: node_3-0
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &3890564052206824072
@@ -6516,7 +6516,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_4-0
+  mSpriteName: node_3-0
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &5406274416170753575
@@ -7839,7 +7839,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: node_4-0
+  mSpriteName: node_3-0
   mFixedAspect: 0
   mFillCenter: 1
 --- !u!135 &4986682460099800441

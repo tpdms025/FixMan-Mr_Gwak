@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum NodeType { None = 0, Level4, Level3, Level2, Level1 }
+public enum NodeType { None = 0, Level3, Level2, Level1 }
 
 public class Node : MonoBehaviour
 {
