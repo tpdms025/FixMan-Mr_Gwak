@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3c1ecb0cfff2e4d9d70fbd9552f19a, type: 3}
+  m_Name: ScoreFont
+  m_EditorClassIdentifier: 
+  mMat: {fileID: 2100000, guid: 67e5bc04770674d46aa03eaf4bd09099, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mSize: 32
+    mBase: 26
+    mWidth: 256
+    mHeight: 512
+    mSpriteName: ScoreFont_0
+    mSaved:
+    - index: 44
+      x: 199
+      y: 0
+      width: 24
+      height: 86
+      offsetX: 0
+      offsetY: 0
+      advance: 24
+      channel: 15
+      kerning: 
+    - index: 48
+      x: 64
+      y: 0
+      width: 67
+      height: 86
+      offsetX: 0
+      offsetY: 0
+      advance: 67
+      channel: 15
+      kerning: 
+    - index: 49
+      x: 199
+      y: 87
+      width: 47
+      height: 85
+      offsetX: 0
+      offsetY: 0
+      advance: 47
+      channel: 15
+      kerning: 
+    - index: 50
+      x: 0
+      y: 175
+      width: 62
+      height: 85
+      offsetX: 0
+      offsetY: 0
+      advance: 62
+      channel: 15
+      kerning: 
+    - index: 51
+      x: 0
+      y: 88
+      width: 63
+      height: 86
+      offsetX: 0
+      offsetY: 0
+      advance: 63
+      channel: 15
+      kerning: 
+    - index: 52
+      x: 128
+      y: 87
+      width: 70
+      height: 85
+      offsetX: 0
+      offsetY: 0
+      advance: 70
+      channel: 15
+      kerning: 
+    - index: 53
+      x: 125
+      y: 174
+      width: 59
+      height: 85
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 54
+      x: 0
+      y: 0
+      width: 63
+      height: 87
+      offsetX: 0
+      offsetY: 0
+      advance: 63
+      channel: 15
+      kerning: 
+    - index: 55
+      x: 63
+      y: 175
+      width: 61
+      height: 85
+      offsetX: 0
+      offsetY: 0
+      advance: 61
+      channel: 15
+      kerning: 
+    - index: 56
+      x: 132
+      y: 0
+      width: 66
+      height: 86
+      offsetX: 0
+      offsetY: 0
+      advance: 66
+      channel: 15
+      kerning: 
+    - index: 57
+      x: 64
+      y: 87
+      width: 63
+      height: 86
+      offsetX: 0
+      offsetY: 0
+      advance: 63
+      channel: 15
+      kerning: 
+  mAtlas: {fileID: 0}
+  mReplacement: {fileID: 0}
+  mSymbols: []
+  mDynamicFont: {fileID: 0}
+  mDynamicFontSize: 16
+  mDynamicFontStyle: 0

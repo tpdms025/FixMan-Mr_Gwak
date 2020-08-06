@@ -32,8 +32,6 @@ public class GridManager : MonoBehaviour
 
     private void Awake()
     {
- 
-
         grids = new GameObject[gridMaxCount];
         for (int i = 0; i < gridMaxCount; ++i)
         {

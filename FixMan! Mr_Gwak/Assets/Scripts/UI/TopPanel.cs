@@ -33,7 +33,7 @@ public class TopPanel : MonoBehaviour
         while(curTime > 0.0f)
         {
             curTime -= Time.deltaTime;
-            timeLabel.text = curTime.ToString("0.00");
+            timeLabel.text = curTime.ToString("0");
             ChangeProgressBar();
             yield return null;
         }
