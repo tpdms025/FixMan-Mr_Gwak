@@ -14,11 +14,167 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: a3b5b006befac92469c21558bf3c3de7, type: 2}
   mSprites:
-  - name: player
+  - name: attack1
+    x: 227
+    y: 215
+    width: 186
+    height: 220
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 73
+    paddingRight: 20
+    paddingTop: 72
+    paddingBottom: 73
+  - name: attack2
     x: 0
-    y: 86
-    width: 137
-    height: 170
+    y: 17
+    width: 224
+    height: 206
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 22
+    paddingTop: 113
+    paddingBottom: 46
+  - name: attack3
+    x: 227
+    y: 436
+    width: 229
+    height: 190
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 28
+    paddingTop: 127
+    paddingBottom: 48
+  - name: attack4
+    x: 0
+    y: 758
+    width: 226
+    height: 266
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 20
+    paddingTop: 28
+    paddingBottom: 71
+  - name: attack5
+    x: 0
+    y: 491
+    width: 224
+    height: 266
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 35
+    paddingRight: 20
+    paddingTop: 31
+    paddingBottom: 68
+  - name: attack6
+    x: 0
+    y: 224
+    width: 224
+    height: 266
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 35
+    paddingRight: 20
+    paddingTop: 31
+    paddingBottom: 68
+  - name: fill1
+    x: 227
+    y: 826
+    width: 220
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 31
+    paddingRight: 28
+    paddingTop: 102
+    paddingBottom: 65
+  - name: fill3
+    x: 448
+    y: 826
+    width: 220
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 30
+    paddingRight: 29
+    paddingTop: 101
+    paddingBottom: 66
+  - name: hit1
+    x: 669
+    y: 826
+    width: 220
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 31
+    paddingRight: 28
+    paddingTop: 102
+    paddingBottom: 65
+  - name: hit2
+    x: 227
+    y: 627
+    width: 220
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 31
+    paddingRight: 28
+    paddingTop: 102
+    paddingBottom: 65
+  - name: move1
+    x: 448
+    y: 627
+    width: 220
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 31
+    paddingRight: 28
+    paddingTop: 102
+    paddingBottom: 65
+  - name: move2
+    x: 669
+    y: 627
+    width: 220
+    height: 198
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 31
+    paddingRight: 28
+    paddingTop: 102
+    paddingBottom: 65
+  - name: spear
+    x: 890
+    y: 828
+    width: 78
+    height: 196
     borderLeft: 0
     borderRight: 0
     borderTop: 0
