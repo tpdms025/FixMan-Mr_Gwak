@@ -28,6 +28,7 @@ public class UIManager : MonoBehaviour
 
     public void TimePause()
     {
+        Debug.Log(Time.timeScale.ToString());
         Time.timeScale = Time.timeScale == 1 ? 0 : 1;
     }
 

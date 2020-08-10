@@ -55,6 +55,11 @@ public class GridManager : MonoBehaviour
     {
         if (B_Zone.transform.localPosition.y <= startPos_AZone.y)
         {
+            if(_curNode.transform.parent.gameObject == A_Zone)
+            {
+                selectLine.transform.SetParent(transform);
+            }
+
             Destroy(A_Zone);
             A_Zone = B_Zone;
             GridRandomSetting();

@@ -165,22 +165,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
+    target: {fileID: 1225673568}
+    relative: 0.5
+    absolute: -246
   rightAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
+    target: {fileID: 1225673568}
+    relative: 0.5
+    absolute: 264
   bottomAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
-  topAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 1
-    absolute: 0
-  updateAnchors: 1
+    absolute: -161
+  topAnchor:
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: -54
+  updateAnchors: 0
   mColor: {r: 0.94117653, g: 0.94117653, b: 0.94117653, a: 1}
   mPivot: 1
   mWidth: 510
@@ -599,7 +599,7 @@ PrefabInstance:
     - target: {fileID: 1282276542730546510, guid: 65872cb4cc23642439732b7e0fdadf98,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1282276542730546510, guid: 65872cb4cc23642439732b7e0fdadf98,
         type: 3}
@@ -681,22 +681,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 0
     absolute: 0
   rightAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 1
     absolute: 0
   bottomAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 0
     absolute: 0
   topAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 1
     absolute: 0
-  updateAnchors: 1
+  updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 1080
@@ -768,22 +768,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 0
-    absolute: 0
+    absolute: 161
   rightAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
-  bottomAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 0
-    absolute: 0
-  topAnchor:
-    target: {fileID: 0}
+    absolute: 242
+  bottomAnchor:
+    target: {fileID: 1225673568}
     relative: 1
-    absolute: 0
-  updateAnchors: 1
+    absolute: -150
+  topAnchor:
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: -60
+  updateAnchors: 0
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mWidth: 81
@@ -908,7 +908,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165585583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2, y: -3.7, z: 0}
+  m_LocalPosition: {x: 2, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 259715464}
@@ -927,22 +927,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 0
-    absolute: 0
+    absolute: 49
   rightAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
-  bottomAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 0
-    absolute: 0
-  topAnchor:
-    target: {fileID: 0}
+    absolute: 127
+  bottomAnchor:
+    target: {fileID: 1225673568}
     relative: 1
-    absolute: 0
-  updateAnchors: 1
+    absolute: -146
+  topAnchor:
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: -50
+  updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 78
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenTarget: {fileID: 186654985}
-  hover: {r: 1, g: 1, b: 1, a: 1}
+  hover: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
   pressed: {r: 1, g: 1, b: 1, a: 1}
   disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   duration: 0.2
@@ -1120,7 +1120,7 @@ MonoBehaviour:
   resetIfDisabled: 1
   ifDisabledOnPlay: 0
   disableWhenFinished: 0
-  includeChildren: 1
+  includeChildren: 0
   onFinished:
   - mTarget: {fileID: 79785899}
     mMethodName: TimePause
@@ -1508,7 +1508,7 @@ GameObject:
   - component: {fileID: 233822486}
   - component: {fileID: 233822485}
   m_Layer: 5
-  m_Name: 2D Sprite
+  m_Name: Wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1522,11 +1522,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233822483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -716, y: 416, z: 0}
+  m_LocalPosition: {x: -288, y: 534, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 976230390}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &233822485
 Animator:
@@ -1649,22 +1649,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 0
-    absolute: 0
+    absolute: 133
   rightAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
-  bottomAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 0
-    absolute: 0
-  topAnchor:
-    target: {fileID: 0}
+    absolute: 165
+  bottomAnchor:
+    target: {fileID: 1225673568}
     relative: 1
-    absolute: 0
-  updateAnchors: 1
+    absolute: -121
+  topAnchor:
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: -85
+  updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 32
@@ -1984,6 +1984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 463930439}
+  - component: {fileID: 463930441}
   - component: {fileID: 463930440}
   m_Layer: 5
   m_Name: Timer
@@ -2034,6 +2035,45 @@ MonoBehaviour:
   rawValue: 1
   direction: 2
   mInverted: 0
+--- !u!114 &463930441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463930438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858a20c1b21a3f94bb5b2d3b901c9aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftAnchor:
+    target: {fileID: 1225673568}
+    relative: 0.5
+    absolute: -1
+  rightAnchor:
+    target: {fileID: 1225673568}
+    relative: 0.5
+    absolute: 99
+  bottomAnchor:
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: -304
+  topAnchor:
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: -204
+  updateAnchors: 0
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 100
+  mHeight: 100
+  mDepth: 7
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 1
 --- !u!1 &554449650
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,22 +3239,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: -185
   rightAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 1
-    absolute: 0
+    absolute: -77
   bottomAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
-  topAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 1
-    absolute: 0
-  updateAnchors: 1
+    absolute: -146
+  topAnchor:
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: -40
+  updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 108
@@ -3262,7 +3302,7 @@ MonoBehaviour:
   resetIfDisabled: 1
   ifDisabledOnPlay: 0
   disableWhenFinished: 0
-  includeChildren: 1
+  includeChildren: 0
   onFinished: []
   eventReceiver: {fileID: 0}
   callWhenFinished: 
@@ -3923,9 +3963,7 @@ Transform:
   - {fileID: 79785898}
   - {fileID: 1828226077}
   - {fileID: 1326759219}
-  - {fileID: 2041556516}
   - {fileID: 233822484}
-  - {fileID: 2047498791}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4084,22 +4122,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 689699735}
     relative: 0
-    absolute: 0
+    absolute: 225
   rightAnchor:
-    target: {fileID: 0}
+    target: {fileID: 689699735}
     relative: 1
-    absolute: 0
+    absolute: -225
   bottomAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
+    target: {fileID: 689699735}
+    relative: 0.5
+    absolute: -457
   topAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
-  updateAnchors: 1
+    target: {fileID: 689699735}
+    relative: 0.5
+    absolute: 457
+  updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 630
@@ -5114,7 +5152,7 @@ PrefabInstance:
     - target: {fileID: 1282276542730546510, guid: 0736bf489a7185948808c2443481f961,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1282276542730546510, guid: 0736bf489a7185948808c2443481f961,
         type: 3}
@@ -5884,21 +5922,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 261
+    target: {fileID: 976230390}
+    relative: 0.5
+    absolute: 249
   rightAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 1
-    absolute: -47
+    absolute: -71
   bottomAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 0
-    absolute: 94
+    absolute: 97
   topAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 322
+    target: {fileID: 976230390}
+    relative: 0
+    absolute: 327
   updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
@@ -6059,21 +6097,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 0
     absolute: 0
   rightAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 1
     absolute: 0
   bottomAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: -261
-  topAnchor:
-    target: {fileID: 0}
+    target: {fileID: 1225673568}
     relative: 1
-    absolute: 3
+    absolute: -278
+  topAnchor:
+    target: {fileID: 1225673568}
+    relative: 1
+    absolute: 2
   updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
@@ -6647,6 +6685,7 @@ GameObject:
   - component: {fileID: 1776695859}
   - component: {fileID: 1776695861}
   - component: {fileID: 1776695860}
+  - component: {fileID: 1776695862}
   m_Layer: 5
   m_Name: ModalSprite
   m_TagString: Untagged
@@ -6679,7 +6718,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1080, y: 1920, z: 0}
+  m_Size: {x: 1084, y: 1922, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1776695861
 MonoBehaviour:
@@ -6694,32 +6733,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 689699735}
     relative: 0
-    absolute: 0
+    absolute: -2
   rightAnchor:
-    target: {fileID: 0}
+    target: {fileID: 689699735}
     relative: 1
-    absolute: 0
+    absolute: 2
   bottomAnchor:
-    target: {fileID: 0}
+    target: {fileID: 689699735}
     relative: 0
-    absolute: 0
+    absolute: -1
   topAnchor:
-    target: {fileID: 0}
+    target: {fileID: 689699735}
     relative: 1
-    absolute: 0
+    absolute: 1
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 1080
-  mHeight: 1920
+  mWidth: 1084
+  mHeight: 1922
   mDepth: 0
   mMat: {fileID: 0}
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 0.5625
+  aspectRatio: 0.5013876
   mType: 1
   mFillDirection: 4
   mFillAmount: 1
@@ -6737,6 +6776,56 @@ MonoBehaviour:
   mSpriteName: modal
   mFixedAspect: 0
   mFillCenter: 1
+--- !u!114 &1776695862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776695858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  useFixedUpdate: 0
+  onFinished: []
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: -0, y: 0, z: 0}
+  to: {x: -0, y: 0, z: 0}
+  quaternionLerp: 0
 --- !u!1 &1828226076
 GameObject:
   m_ObjectHideFlags: 0
@@ -6765,6 +6854,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 2041556516}
   - {fileID: 1025637971}
   - {fileID: 1062388415}
   - {fileID: 241868931}
@@ -7237,7 +7327,13 @@ MonoBehaviour:
   pressedSprite2D: {fileID: 0}
   disabledSprite2D: {fileID: 0}
   pixelSnap: 0
-  onClick: []
+  onClick:
+  - mTarget: {fileID: 79785899}
+    mMethodName: ToggleWindow
+    mParameters:
+    - obj: {fileID: 670348431}
+      field: 
+    oneShot: 0
 --- !u!114 &1957732785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7406,7 +7502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025722964}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 976230390}
@@ -7425,27 +7521,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 0
     absolute: 0
   rightAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 1
     absolute: 0
   bottomAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 0
     absolute: 0
   topAnchor:
-    target: {fileID: 0}
+    target: {fileID: 976230390}
     relative: 1
     absolute: 0
-  updateAnchors: 1
+  updateAnchors: 0
   mColor: {r: 1, g: 1, b: 1, a: 0.8352941}
   mPivot: 4
   mWidth: 1080
   mHeight: 1920
-  mDepth: -1
+  mDepth: -2
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
@@ -7495,12 +7591,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041556515}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -206, y: 206, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -205.99998, y: 205.99998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 976230390}
-  m_RootOrder: 5
+  m_Father: {fileID: 1828226077}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2041556517
 Animator:
@@ -7691,113 +7787,6 @@ MonoBehaviour:
   mSpriteName: option window
   mFixedAspect: 0
   mFillCenter: 1
---- !u!1 &2047498790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2047498791}
-  - component: {fileID: 2047498792}
-  - component: {fileID: 2047498793}
-  m_Layer: 5
-  m_Name: Wood
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2047498791
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047498790}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -716, y: 416, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 976230390}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2047498792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047498790}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
-  rightAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
-  bottomAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
-  topAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
-  updateAnchors: 1
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mWidth: 158
-  mHeight: 88
-  mDepth: 7
-  mMat: {fileID: 0}
-  autoResizeBoxCollider: 0
-  hideIfOffScreen: 0
-  keepAspectRatio: 0
-  aspectRatio: 1.7954545
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
-  mFlip: 0
-  mApplyGradient: 0
-  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
-  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
-  centerType: 1
-  leftType: 1
-  rightType: 1
-  bottomType: 1
-  topType: 1
-  mAtlas: {fileID: 11400000, guid: faded59084aaa7d41becfca0b14df92e, type: 2}
-  mSpriteName: click
-  mFixedAspect: 0
-  mFillCenter: 1
---- !u!95 &2047498793
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047498790}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 28fea7d63ce77e54d8355fa55c2791e1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2075538604
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,7 +8109,7 @@ PrefabInstance:
     - target: {fileID: 1283622271170501836, guid: 429373720ff52df42930055ca998d8d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1283622271170501836, guid: 429373720ff52df42930055ca998d8d2,
         type: 3}
