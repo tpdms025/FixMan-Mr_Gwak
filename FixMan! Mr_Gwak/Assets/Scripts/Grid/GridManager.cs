@@ -19,6 +19,8 @@ public class GridManager : MonoBehaviour
     private Vector3 startPos_BZone;
 
     private GameObject selectLine;
+    public Player player;
+
     [SerializeField] private Node _curNode = null;
     public Node curNode
     {
@@ -26,7 +28,8 @@ public class GridManager : MonoBehaviour
         set
         {
             _curNode = value;
-            ChangeSelectLine(_curNode);
+            ChangeSelectLine(_curNode.transform);
+            player.Teleport(_curNode.transform);
         }
     }
 
@@ -41,6 +44,7 @@ public class GridManager : MonoBehaviour
         startPos_BZone = B_Zone.transform.localPosition;
 
         selectLine = transform.Find("SelectLine").gameObject;
+
     }
 
     private void FixedUpdate()
@@ -131,13 +135,13 @@ public class GridManager : MonoBehaviour
     }
 
     /// <summary>
-    /// 흰색 라인 위치를 현재노드 위치로 변경한다.
+    /// 흰색 라인을 현재노드 위치로 변경한다.
     /// </summary>
-    /// <param name="_curNode"> 현재 선택된 노드</param>
-    public void ChangeSelectLine(Node _curNode)
+    private void ChangeSelectLine(Transform target)
     {
-        selectLine.transform.SetParent(_curNode.transform);
+        selectLine.transform.SetParent(target);
         selectLine.transform.localPosition = Vector3.zero;
-        Debug.Log(_curNode.name);
     }
+
+   
 }

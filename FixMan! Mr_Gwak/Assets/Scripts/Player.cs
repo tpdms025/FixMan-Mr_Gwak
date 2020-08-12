@@ -5,6 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     #region Property
+
+    private BoxCollider col;
+
     private int maxHp = 3;
     private int _health = 3;
     public int health
@@ -42,9 +45,20 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        col = GetComponent<BoxCollider>();
         gridManager = GameObject.FindGameObjectWithTag("GridManager").GetComponent<GridManager>();
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+    }
+
+    public void Teleport(Transform target)
+    {
+        this.transform.SetParent(target);
+        this.transform.localPosition = new Vector3(82.0f, 55.0f, 0.0f);
+    }
 
     public void FillHoney()
     {
