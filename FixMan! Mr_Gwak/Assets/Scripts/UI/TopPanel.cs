@@ -6,7 +6,7 @@ public class TopPanel : MonoBehaviour
 {
     private UISlider timer;
     private UILabel timeLabel;
-
+    private UILabel hpLabel;
     private UILabel scoreLabel;
 
     [SerializeField] private float time = 100.0f;
@@ -18,6 +18,7 @@ public class TopPanel : MonoBehaviour
     {
         timer = transform.Find("Timer").GetComponent<UISlider>();
         timeLabel = timer.GetComponentInChildren<UILabel>();
+        hpLabel = transform.Find("HP").transform.Find("HpCountLabel").GetComponent<UILabel>();
         scoreLabel = transform.Find("ScoreLabel").GetComponent<UILabel>();
 
         curTime = time;
@@ -39,7 +40,21 @@ public class TopPanel : MonoBehaviour
         }
 
         //game clear!
+        //TODO:
+    }
 
+    public void ChangeProgressBar()
+    {
+        timer.value -= Mathf.Clamp01(Time.deltaTime / time);
+    }
+
+    /// <summary>
+    /// 생명력 변경
+    /// </summary>
+    /// <param name="hp"></param>
+    public void ChangeHp(int hp)
+    {
+        hpLabel.text = hp.ToString();
     }
 
     /// <summary>
@@ -51,8 +66,4 @@ public class TopPanel : MonoBehaviour
         scoreLabel.text = score.ToString();
     }
 
-    public void ChangeProgressBar()
-    {
-        timer.value -= Mathf.Clamp01(Time.deltaTime / time);
-    }
 }

@@ -19,7 +19,7 @@ public class GridManager : MonoBehaviour
     private Vector3 startPos_BZone;
 
     private GameObject selectLine;
-    public Player player;
+    public GameObject player;
 
     [SerializeField] private Node _curNode = null;
     public Node curNode
@@ -29,7 +29,7 @@ public class GridManager : MonoBehaviour
         {
             _curNode = value;
             ChangeSelectLine(_curNode.transform);
-            player.Teleport(_curNode.transform);
+            player.GetComponent<Player>().Teleport(_curNode.transform);
         }
     }
 
@@ -59,9 +59,10 @@ public class GridManager : MonoBehaviour
     {
         if (B_Zone.transform.localPosition.y <= startPos_AZone.y)
         {
-            if(_curNode.transform.parent.gameObject == A_Zone)
+            if(curNode != null && curNode.transform.parent.gameObject == A_Zone)
             {
                 selectLine.transform.SetParent(transform);
+                player.transform.SetParent(transform);
             }
 
             Destroy(A_Zone);

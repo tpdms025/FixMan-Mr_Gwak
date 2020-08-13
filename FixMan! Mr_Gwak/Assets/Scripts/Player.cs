@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
         get { return _health; }
         set
         {
-            if (value < 0)
+            if (value <= 0)
             {
                 _health = 0;
                 //gameOver
@@ -23,10 +23,10 @@ public class Player : MonoBehaviour
             }
             else
             {
-            _health = value;
-
+                _health = value;
             }
-            Debug.Log("hp" + _health);
+            Debug.Log("hp : " + _health);
+            GameManager.Inst.uIManager.topPanel.ChangeHp(_health);
         }
     }
 
@@ -49,11 +49,14 @@ public class Player : MonoBehaviour
         gridManager = GameObject.FindGameObjectWithTag("GridManager").GetComponent<GridManager>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if(other.CompareTag("DeadZone"))
+        {
+            health--;
+        }
+        Debug.Log(other.name + "colision");
     }
-
     public void Teleport(Transform target)
     {
         this.transform.SetParent(target);

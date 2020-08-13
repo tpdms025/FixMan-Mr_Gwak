@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 880, y: 492}
+  m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 43
+  controlID: 105
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 44
+  controlID: 106
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 19
+  controlID: 107
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,8 +235,8 @@ MonoBehaviour:
     y: 0
     width: 539
     height: 596
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -317,10 +317,10 @@ MonoBehaviour:
     y: 0
     width: 348
     height: 947
-  m_MinSize: {x: 275, y: 191}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 276, y: 212}
+  m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 136
+  controlID: 156
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -340,8 +340,8 @@ MonoBehaviour:
     y: 0
     width: 348
     height: 764
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1080, y: 2160}
+  m_TargetSize: {x: 1080, y: 1920}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 0a000000000000000000000007000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 0a000000000000000000000005000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
@@ -425,8 +425,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -540
     m_HBaseRangeMax: 540
-    m_VBaseRangeMin: -1080
-    m_VBaseRangeMax: 1080
+    m_VBaseRangeMin: -960
+    m_VBaseRangeMax: 960
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -446,7 +446,7 @@ MonoBehaviour:
       y: 21
       width: 780
       height: 554
-    m_Scale: {x: 0.25648147, y: 0.25648147}
+    m_Scale: {x: 0.28854167, y: 0.28854167}
     m_Translation: {x: 390, y: 277}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -454,12 +454,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1520.5776
-      y: -1080
-      width: 3041.1553
-      height: 2160
+      x: -1351.6245
+      y: -960
+      width: 2703.249
+      height: 1920
     m_MinimalGUI: 1
-  m_defaultScale: 0.25648147
+  m_defaultScale: 0.28854167
   m_LastWindowPixelSize: {x: 780, y: 575}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -494,24 +494,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 18390000
-      m_LastClickedID: 14616
-      m_ExpandedIDs: 44f6ffff48f6ffff6ef6ffff72f6ffff92f6ffff9ef6ffffc2f6ffff8af7ffff70fbffff1a3800002c380000e6380000
+      scrollPos: {x: 0, y: 802}
+      m_SelectedIDs: 1c390000
+      m_LastClickedID: 14620
+      m_ExpandedIDs: 48eaffffa0efffffa0f3ffff20faffff74faffffc4faffff60fbffff0e3700006c3700007a3700008a3700001c3800002e3800004e380000e8380000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Wood
+        m_OriginalName: Wood
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 14188
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.017654195, y: 0.20684181, z: -8.961426}
+    m_Target: {x: -0.032705538, y: 0.5181925, z: -0.24172702}
     speed: 2
-    m_Value: {x: -0.017654195, y: 0.20684181, z: -8.961426}
+    m_Value: {x: -0.040862102, y: 0.52656007, z: -0.23902456}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -607,11 +607,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.00000008940697, y: 0.0000000020954758, z: -2.910383e-10, w: -1}
   m_Size:
-    m_Target: 0.71845394
+    m_Target: 0.6280444
     speed: 2
-    m_Value: 0.71845394
+    m_Value: 0.6009995
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -629,7 +629,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.14529264, y: 0.0035589593, z: -0.00052264065, w: -0.989382}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -782,20 +782,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations/Player
+    - Assets/Resources/Prefabs/Grids
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations/Player
+  - Assets/Resources/Prefabs/Grids
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\admin\Documents\GitHub\FixMan-Mr_Gwak\FixMan! Mr_Gwak
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f45d0000
-    m_LastClickedID: 24052
-    m_ExpandedIDs: 00000000d0410000d2410000d4410000d6410000d8410000da410000dc410000e041000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 52420000
+    m_LastClickedID: 16978
+    m_ExpandedIDs: 00000000e0410000e2410000e4410000e6410000e8410000ea410000ec410000f241000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -823,7 +823,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d0410000d2410000d4410000d6410000d8410000da410000dc410000
+    m_ExpandedIDs: 00000000e0410000e2410000e4410000e6410000e8410000ea410000ec410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -916,7 +916,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 540
+  m_LastVerticalScrollValue: 317
 --- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1051,13 +1051,13 @@ MonoBehaviour:
     width: 347
     height: 162
   m_ViewDataDictionary: {fileID: 0}
-  logPanelScroll: {x: 0, y: -64}
+  logPanelScroll: {x: 0, y: -42}
   logPanelSelectedIndex: -1
   logPanelAutoScroll: 1
-  currentFrame: 1065943
+  currentFrame: 1069223
   logs:
-    lastGrabbedIndex: 0
-    lastGrabbedCount: 1
+    lastGrabbedIndex: 1
+    lastGrabbedCount: 2
     proEntries:
     - logType: 1
       ignore: 0
@@ -1070,60 +1070,28 @@ MonoBehaviour:
       listIndex: 0
       nativeIndex: 0
       nativeIdentifier: 0
-      originalLog: ComboInit
-      originalStackTrace: 'ComboInit
+      originalLog: Node_52colision
+      originalStackTrace: 'Node_52colision
 
         UnityEngine.Debug:Log(Object)
 
-        Player:FillHoney()
-        (at Assets/Scripts/Player.cs:79)
-
-        EventDelegate:Execute() (at Assets/NGUI/Scripts/Internal/EventDelegate.cs:476)
-
-        EventDelegate:Execute(List`1)
-        (at Assets/NGUI/Scripts/Internal/EventDelegate.cs:644)
-
-        UIButton:OnClick()
-        (at Assets/NGUI/Scripts/Interaction/UIButton.cs:248)
-
-        UnityEngine.GameObject:SendMessage(String,
-        Object, SendMessageOptions)
-
-        UICamera:Notify(GameObject, String,
-        Object) (at Assets/NGUI/Scripts/UI/UICamera.cs:1903)
-
-        UICamera:ProcessRelease(Boolean,
-        Single) (at Assets/NGUI/Scripts/UI/UICamera.cs:2795)
-
-        UICamera:ProcessTouch(Boolean,
-        Boolean) (at Assets/NGUI/Scripts/UI/UICamera.cs:2845)
-
-        UICamera:ProcessMouse()
-        (at Assets/NGUI/Scripts/UI/UICamera.cs:2268)
-
-        UICamera:ProcessTouches()
-        (at Assets/NGUI/Scripts/UI/UICamera.cs:2382)
-
-        UICamera:ProcessEvents()
-        (at Assets/NGUI/Scripts/UI/UICamera.cs:2082)
-
-        UICamera:Update() (at
-        Assets/NGUI/Scripts/UI/UICamera.cs:2041)
+        Player:OnTriggerEnter(Collider)
+        (at Assets/Scripts/Player.cs:58)
 
 '
       nativeFileName: Assets/Scripts/Player.cs
-      nativeLineNumber: 79
+      nativeLineNumber: 58
       watchName: 
-      logText: ComboInit
-      logTruncatedText: ComboInit
-      logColumnText: ComboInit
+      logText: Node_52colision
+      logTruncatedText: Node_52colision
+      logColumnText: Node_52colision
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
-      hasSourceCode: 1
-      timeStamp: 22.55085563659668
-      timeFrame: 709
+      hasSourceCode: 0
+      timeStamp: 3.4821529388427734
+      timeFrame: 114
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 22
@@ -1131,324 +1099,456 @@ MonoBehaviour:
       stackEntries:
       - fileName: Assets/Scripts/Player.cs
         fileNameWithoutAssets: Scripts/Player.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/Player.cs:79
+        fileNameWithoutAssetsPlusLineNumber: Scripts/Player.cs:58
         fileNameWithoutPath: Player.cs
-        fileNameWithoutPathPlusLineNumber: Player.cs:79
+        fileNameWithoutPathPlusLineNumber: Player.cs:58
         instanceID: -1
         className: Player
-        methodName: FillHoney
+        methodName: OnTriggerEnter
         namespaceName: None
-        lineNumber: 79
+        lineNumber: 58
         charNumber: 0
-        stackLabel: Player.FillHoney()
-        stackLabel2: '    Assets/Scripts/Player.cs:79'
+        stackLabel: Player.OnTriggerEnter()
+        stackLabel2: '    Assets/Scripts/Player.cs:58'
         stackLabelContent:
-          m_Text: <b>Player.FillHoney()</b>    Assets/Scripts/Player.cs:79
+          m_Text: <b>Player.OnTriggerEnter()</b>    Assets/Scripts/Player.cs:58
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 335
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '77:           //combo Init'
-        - '78:           //TODO:'
-        - '79:           Debug.Log("ComboInit");'
-        - '80:       }'
-        - '81:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/Internal/EventDelegate.cs
-        fileNameWithoutAssets: NGUI/Scripts/Internal/EventDelegate.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/Internal/EventDelegate.cs:476
-        fileNameWithoutPath: EventDelegate.cs
-        fileNameWithoutPathPlusLineNumber: EventDelegate.cs:476
-        instanceID: -1
-        className: EventDelegate
-        methodName: Execute
-        namespaceName: None
-        lineNumber: 476
-        charNumber: 0
-        stackLabel: EventDelegate.Execute()
-        stackLabel2: '    Assets/NGUI/Scripts/Internal/EventDelegate.cs:476'
-        stackLabelContent:
-          m_Text: <b>EventDelegate.Execute()</b>    Assets/NGUI/Scripts/Internal/EventDelegate.cs:476
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 519
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '474:   if (Application.isPlaying)'
-        - '475:   {'
-        - '476:       mCachedCallback();'
-        - '477:   }'
-        - '478:   else if (mCachedCallback.Target != null)'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/Internal/EventDelegate.cs
-        fileNameWithoutAssets: NGUI/Scripts/Internal/EventDelegate.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/Internal/EventDelegate.cs:644
-        fileNameWithoutPath: EventDelegate.cs
-        fileNameWithoutPathPlusLineNumber: EventDelegate.cs:644
-        instanceID: -1
-        className: EventDelegate
-        methodName: Execute
-        namespaceName: None
-        lineNumber: 644
-        charNumber: 0
-        stackLabel: EventDelegate.Execute()
-        stackLabel2: '    Assets/NGUI/Scripts/Internal/EventDelegate.cs:644'
-        stackLabelContent:
-          m_Text: <b>EventDelegate.Execute()</b>    Assets/NGUI/Scripts/Internal/EventDelegate.cs:644
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 520
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '642:   }'
-        - '643:   #else'
-        - '644:   del.Execute();'
-        - '645:   #endif'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/Interaction/UIButton.cs
-        fileNameWithoutAssets: NGUI/Scripts/Interaction/UIButton.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/Interaction/UIButton.cs:248
-        fileNameWithoutPath: UIButton.cs
-        fileNameWithoutPathPlusLineNumber: UIButton.cs:248
-        instanceID: -1
-        className: UIButton
-        methodName: OnClick
-        namespaceName: None
-        lineNumber: 248
-        charNumber: 0
-        stackLabel: UIButton.OnClick()
-        stackLabel2: '    Assets/NGUI/Scripts/Interaction/UIButton.cs:248'
-        stackLabelContent:
-          m_Text: <b>UIButton.OnClick()</b>    Assets/NGUI/Scripts/Interaction/UIButton.cs:248
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 466
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '246:   {'
-        - '247:       current = this;'
-        - '248:       EventDelegate.Execute(onClick);'
-        - '249:       current = null;'
-        - '250:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: None
-        fileNameWithoutAssets: None
-        fileNameWithoutAssetsPlusLineNumber: None
-        fileNameWithoutPath: None
-        fileNameWithoutPathPlusLineNumber: None
-        instanceID: -1
-        className: GameObject
-        methodName: SendMessage
-        namespaceName: UnityEngine
-        lineNumber: 0
-        charNumber: 0
-        stackLabel: GameObject.SendMessage()
-        stackLabel2: 
-        stackLabelContent:
-          m_Text: <b>GameObject.SendMessage()</b>
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 223
+        stackLabelWidth: 374
         stackLabelHeight: 25
         stackSourceLineHeight: 17
         sourceCode: []
-        sourceCodeUpdated: 1
+        sourceCodeUpdated: 0
         showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:1903
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:1903
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 6d2e4bc9-855d-4ee3-bf56-306dc38264fb
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: 634aa6f0-2500-49f1-ae0d-6bf8b52d2a86
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: e8187009-429a-427d-8441-e407d4bbd1b5
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 775e69fc-6faa-44c0-b247-79689eb04e83
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 6d2e4bc9-855d-4ee3-bf56-306dc38264fb
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: 634aa6f0-2500-49f1-ae0d-6bf8b52d2a86
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: e8187009-429a-427d-8441-e407d4bbd1b5
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 775e69fc-6faa-44c0-b247-79689eb04e83
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    - logType: 1
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 1
+      logOutputHeight: 15
+      listIndex: 1
+      nativeIndex: 1
+      nativeIdentifier: 0
+      originalLog: Node_51colision
+      originalStackTrace: 'Node_51colision
+
+        UnityEngine.Debug:Log(Object)
+
+        Player:OnTriggerEnter(Collider)
+        (at Assets/Scripts/Player.cs:58)
+
+'
+      nativeFileName: Assets/Scripts/Player.cs
+      nativeLineNumber: 58
+      watchName: 
+      logText: Node_51colision
+      logTruncatedText: Node_51colision
+      logColumnText: Node_51colision
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 1
+      timeStamp: 3.8942718505859375
+      timeFrame: 127
+      instanceID: 0
+      collapsedCount: 0
+      cachedHeight: 22
+      cachedHeightLogWidth: 303
+      stackEntries:
+      - fileName: Assets/Scripts/Player.cs
+        fileNameWithoutAssets: Scripts/Player.cs
+        fileNameWithoutAssetsPlusLineNumber: Scripts/Player.cs:58
+        fileNameWithoutPath: Player.cs
+        fileNameWithoutPathPlusLineNumber: Player.cs:58
         instanceID: -1
-        className: UICamera
-        methodName: Notify
+        className: Player
+        methodName: OnTriggerEnter
         namespaceName: None
-        lineNumber: 1903
+        lineNumber: 58
         charNumber: 0
-        stackLabel: UICamera.Notify()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:1903'
+        stackLabel: Player.OnTriggerEnter()
+        stackLabel2: '    Assets/Scripts/Player.cs:58'
         stackLabelContent:
-          m_Text: <b>UICamera.Notify()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:1903
+          m_Text: <b>Player.OnTriggerEnter()</b>    Assets/Scripts/Player.cs:58
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 427
+        stackLabelWidth: 374
         stackLabelHeight: 25
         stackSourceLineHeight: 17
         sourceCode:
-        - '1901:   //if (currentScheme == ControlScheme.Controller)'
-        - '1902:   //    Debug.Log((go != null ? "[" + go.name + "]." : "[global].")
-          + funcName + "(" + obj + ");", go);'
-        - '1903:   go.SendMessage(funcName, obj, SendMessageOptions.DontRequireReceiver);'
-        - '1904:   if (mGenericHandler != null && mGenericHandler != go)'
-        - '1905:       mGenericHandler.SendMessage(funcName, obj, SendMessageOptions.DontRequireReceiver);'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2795
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2795
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessRelease
-        namespaceName: None
-        lineNumber: 2795
-        charNumber: 0
-        stackLabel: UICamera.ProcessRelease()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2795'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessRelease()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2795
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 485
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2794:   if (onClick != null) onClick(currentTouch.pressed);'
-        - '2795:   Notify(currentTouch.pressed, "OnClick", null);'
-        - '2797:   if (currentTouch.clickTime + 0.35f > time)'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2845
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2845
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessTouch
-        namespaceName: None
-        lineNumber: 2845
-        charNumber: 0
-        stackLabel: UICamera.ProcessTouch()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2845'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessTouch()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2845
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 476
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2843:   if (currentTouch.pressed != null)'
-        - '2844:   {'
-        - '2845:       if (released) ProcessRelease(isMouse, drag);'
-        - '2846:       ProcessPress(pressed, click, drag);'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2268
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2268
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessMouse
-        namespaceName: None
-        lineNumber: 2268
-        charNumber: 0
-        stackLabel: UICamera.ProcessMouse()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2268'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessMouse()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2268
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 478
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2267:       // Process the mouse events'
-        - '2268:       ProcessTouch(pressed, unpressed);'
-        - '2269:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2382
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2382
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessTouches
-        namespaceName: None
-        lineNumber: 2382
-        charNumber: 0
-        stackLabel: UICamera.ProcessTouches()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2382'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessTouches()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2382
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 489
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2380:   }'
-        - '2382:   if (useMouse) ProcessMouse();'
-        - '2383:   #if UNITY_EDITOR'
-        - '2384:   else if (GetInputTouch == null) ProcessFakeTouches();'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2082
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2082
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessEvents
-        namespaceName: None
-        lineNumber: 2082
-        charNumber: 0
-        stackLabel: UICamera.ProcessEvents()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2082'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessEvents()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2082
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 479
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2081:   // Process touch events first'
-        - '2082:   if (useTouch) ProcessTouches();'
-        - '2083:   else if (useMouse) ProcessMouse();'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2041
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2041
-        instanceID: -1
-        className: UICamera
-        methodName: Update
-        namespaceName: None
-        lineNumber: 2041
-        charNumber: 0
-        stackLabel: UICamera.Update()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2041'
-        stackLabelContent:
-          m_Text: <b>UICamera.Update()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2041
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 434
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2039:           if (!handlesEvents) return;'
-        - '2040:   #endif'
-        - '2041:   if (processEventsIn == ProcessEventsIn.Update) ProcessEvents();'
-        - '2042:   }'
+        - '56:           health--;'
+        - '57:       }'
+        - '58:       Debug.Log(other.name + "colision");'
+        - '59:   }'
+        - '60:   public void Teleport(Transform target)'
         sourceCodeUpdated: 1
         showSource: 1
       ignoredStackEntries: []
@@ -1832,60 +1932,28 @@ MonoBehaviour:
       listIndex: 0
       nativeIndex: 0
       nativeIdentifier: 0
-      originalLog: ComboInit
-      originalStackTrace: 'ComboInit
+      originalLog: Node_52colision
+      originalStackTrace: 'Node_52colision
 
         UnityEngine.Debug:Log(Object)
 
-        Player:FillHoney()
-        (at Assets/Scripts/Player.cs:79)
-
-        EventDelegate:Execute() (at Assets/NGUI/Scripts/Internal/EventDelegate.cs:476)
-
-        EventDelegate:Execute(List`1)
-        (at Assets/NGUI/Scripts/Internal/EventDelegate.cs:644)
-
-        UIButton:OnClick()
-        (at Assets/NGUI/Scripts/Interaction/UIButton.cs:248)
-
-        UnityEngine.GameObject:SendMessage(String,
-        Object, SendMessageOptions)
-
-        UICamera:Notify(GameObject, String,
-        Object) (at Assets/NGUI/Scripts/UI/UICamera.cs:1903)
-
-        UICamera:ProcessRelease(Boolean,
-        Single) (at Assets/NGUI/Scripts/UI/UICamera.cs:2795)
-
-        UICamera:ProcessTouch(Boolean,
-        Boolean) (at Assets/NGUI/Scripts/UI/UICamera.cs:2845)
-
-        UICamera:ProcessMouse()
-        (at Assets/NGUI/Scripts/UI/UICamera.cs:2268)
-
-        UICamera:ProcessTouches()
-        (at Assets/NGUI/Scripts/UI/UICamera.cs:2382)
-
-        UICamera:ProcessEvents()
-        (at Assets/NGUI/Scripts/UI/UICamera.cs:2082)
-
-        UICamera:Update() (at
-        Assets/NGUI/Scripts/UI/UICamera.cs:2041)
+        Player:OnTriggerEnter(Collider)
+        (at Assets/Scripts/Player.cs:58)
 
 '
       nativeFileName: Assets/Scripts/Player.cs
-      nativeLineNumber: 79
+      nativeLineNumber: 58
       watchName: 
-      logText: ComboInit
-      logTruncatedText: ComboInit
-      logColumnText: ComboInit
+      logText: Node_52colision
+      logTruncatedText: Node_52colision
+      logColumnText: Node_52colision
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
-      hasSourceCode: 1
-      timeStamp: 22.55085563659668
-      timeFrame: 709
+      hasSourceCode: 0
+      timeStamp: 3.4821529388427734
+      timeFrame: 114
       instanceID: 0
       collapsedCount: 0
       cachedHeight: 22
@@ -1893,324 +1961,456 @@ MonoBehaviour:
       stackEntries:
       - fileName: Assets/Scripts/Player.cs
         fileNameWithoutAssets: Scripts/Player.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/Player.cs:79
+        fileNameWithoutAssetsPlusLineNumber: Scripts/Player.cs:58
         fileNameWithoutPath: Player.cs
-        fileNameWithoutPathPlusLineNumber: Player.cs:79
+        fileNameWithoutPathPlusLineNumber: Player.cs:58
         instanceID: -1
         className: Player
-        methodName: FillHoney
+        methodName: OnTriggerEnter
         namespaceName: None
-        lineNumber: 79
+        lineNumber: 58
         charNumber: 0
-        stackLabel: Player.FillHoney()
-        stackLabel2: '    Assets/Scripts/Player.cs:79'
+        stackLabel: Player.OnTriggerEnter()
+        stackLabel2: '    Assets/Scripts/Player.cs:58'
         stackLabelContent:
-          m_Text: <b>Player.FillHoney()</b>    Assets/Scripts/Player.cs:79
+          m_Text: <b>Player.OnTriggerEnter()</b>    Assets/Scripts/Player.cs:58
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 335
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '77:           //combo Init'
-        - '78:           //TODO:'
-        - '79:           Debug.Log("ComboInit");'
-        - '80:       }'
-        - '81:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/Internal/EventDelegate.cs
-        fileNameWithoutAssets: NGUI/Scripts/Internal/EventDelegate.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/Internal/EventDelegate.cs:476
-        fileNameWithoutPath: EventDelegate.cs
-        fileNameWithoutPathPlusLineNumber: EventDelegate.cs:476
-        instanceID: -1
-        className: EventDelegate
-        methodName: Execute
-        namespaceName: None
-        lineNumber: 476
-        charNumber: 0
-        stackLabel: EventDelegate.Execute()
-        stackLabel2: '    Assets/NGUI/Scripts/Internal/EventDelegate.cs:476'
-        stackLabelContent:
-          m_Text: <b>EventDelegate.Execute()</b>    Assets/NGUI/Scripts/Internal/EventDelegate.cs:476
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 519
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '474:   if (Application.isPlaying)'
-        - '475:   {'
-        - '476:       mCachedCallback();'
-        - '477:   }'
-        - '478:   else if (mCachedCallback.Target != null)'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/Internal/EventDelegate.cs
-        fileNameWithoutAssets: NGUI/Scripts/Internal/EventDelegate.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/Internal/EventDelegate.cs:644
-        fileNameWithoutPath: EventDelegate.cs
-        fileNameWithoutPathPlusLineNumber: EventDelegate.cs:644
-        instanceID: -1
-        className: EventDelegate
-        methodName: Execute
-        namespaceName: None
-        lineNumber: 644
-        charNumber: 0
-        stackLabel: EventDelegate.Execute()
-        stackLabel2: '    Assets/NGUI/Scripts/Internal/EventDelegate.cs:644'
-        stackLabelContent:
-          m_Text: <b>EventDelegate.Execute()</b>    Assets/NGUI/Scripts/Internal/EventDelegate.cs:644
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 520
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '642:   }'
-        - '643:   #else'
-        - '644:   del.Execute();'
-        - '645:   #endif'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/Interaction/UIButton.cs
-        fileNameWithoutAssets: NGUI/Scripts/Interaction/UIButton.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/Interaction/UIButton.cs:248
-        fileNameWithoutPath: UIButton.cs
-        fileNameWithoutPathPlusLineNumber: UIButton.cs:248
-        instanceID: -1
-        className: UIButton
-        methodName: OnClick
-        namespaceName: None
-        lineNumber: 248
-        charNumber: 0
-        stackLabel: UIButton.OnClick()
-        stackLabel2: '    Assets/NGUI/Scripts/Interaction/UIButton.cs:248'
-        stackLabelContent:
-          m_Text: <b>UIButton.OnClick()</b>    Assets/NGUI/Scripts/Interaction/UIButton.cs:248
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 466
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '246:   {'
-        - '247:       current = this;'
-        - '248:       EventDelegate.Execute(onClick);'
-        - '249:       current = null;'
-        - '250:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: None
-        fileNameWithoutAssets: None
-        fileNameWithoutAssetsPlusLineNumber: None
-        fileNameWithoutPath: None
-        fileNameWithoutPathPlusLineNumber: None
-        instanceID: -1
-        className: GameObject
-        methodName: SendMessage
-        namespaceName: UnityEngine
-        lineNumber: 0
-        charNumber: 0
-        stackLabel: GameObject.SendMessage()
-        stackLabel2: 
-        stackLabelContent:
-          m_Text: <b>GameObject.SendMessage()</b>
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 223
+        stackLabelWidth: 374
         stackLabelHeight: 25
         stackSourceLineHeight: 17
         sourceCode: []
-        sourceCodeUpdated: 1
+        sourceCodeUpdated: 0
         showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:1903
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:1903
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 6d2e4bc9-855d-4ee3-bf56-306dc38264fb
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: 634aa6f0-2500-49f1-ae0d-6bf8b52d2a86
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: e8187009-429a-427d-8441-e407d4bbd1b5
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 775e69fc-6faa-44c0-b247-79689eb04e83
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 6d2e4bc9-855d-4ee3-bf56-306dc38264fb
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: 634aa6f0-2500-49f1-ae0d-6bf8b52d2a86
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: e8187009-429a-427d-8441-e407d4bbd1b5
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 775e69fc-6faa-44c0-b247-79689eb04e83
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    - logType: 1
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 1
+      logOutputHeight: 15
+      listIndex: 1
+      nativeIndex: 1
+      nativeIdentifier: 0
+      originalLog: Node_51colision
+      originalStackTrace: 'Node_51colision
+
+        UnityEngine.Debug:Log(Object)
+
+        Player:OnTriggerEnter(Collider)
+        (at Assets/Scripts/Player.cs:58)
+
+'
+      nativeFileName: Assets/Scripts/Player.cs
+      nativeLineNumber: 58
+      watchName: 
+      logText: Node_51colision
+      logTruncatedText: Node_51colision
+      logColumnText: Node_51colision
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 1
+      timeStamp: 3.8942718505859375
+      timeFrame: 127
+      instanceID: 0
+      collapsedCount: 0
+      cachedHeight: 22
+      cachedHeightLogWidth: 303
+      stackEntries:
+      - fileName: Assets/Scripts/Player.cs
+        fileNameWithoutAssets: Scripts/Player.cs
+        fileNameWithoutAssetsPlusLineNumber: Scripts/Player.cs:58
+        fileNameWithoutPath: Player.cs
+        fileNameWithoutPathPlusLineNumber: Player.cs:58
         instanceID: -1
-        className: UICamera
-        methodName: Notify
+        className: Player
+        methodName: OnTriggerEnter
         namespaceName: None
-        lineNumber: 1903
+        lineNumber: 58
         charNumber: 0
-        stackLabel: UICamera.Notify()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:1903'
+        stackLabel: Player.OnTriggerEnter()
+        stackLabel2: '    Assets/Scripts/Player.cs:58'
         stackLabelContent:
-          m_Text: <b>UICamera.Notify()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:1903
+          m_Text: <b>Player.OnTriggerEnter()</b>    Assets/Scripts/Player.cs:58
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 427
+        stackLabelWidth: 374
         stackLabelHeight: 25
         stackSourceLineHeight: 17
         sourceCode:
-        - '1901:   //if (currentScheme == ControlScheme.Controller)'
-        - '1902:   //    Debug.Log((go != null ? "[" + go.name + "]." : "[global].")
-          + funcName + "(" + obj + ");", go);'
-        - '1903:   go.SendMessage(funcName, obj, SendMessageOptions.DontRequireReceiver);'
-        - '1904:   if (mGenericHandler != null && mGenericHandler != go)'
-        - '1905:       mGenericHandler.SendMessage(funcName, obj, SendMessageOptions.DontRequireReceiver);'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2795
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2795
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessRelease
-        namespaceName: None
-        lineNumber: 2795
-        charNumber: 0
-        stackLabel: UICamera.ProcessRelease()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2795'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessRelease()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2795
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 485
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2794:   if (onClick != null) onClick(currentTouch.pressed);'
-        - '2795:   Notify(currentTouch.pressed, "OnClick", null);'
-        - '2797:   if (currentTouch.clickTime + 0.35f > time)'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2845
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2845
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessTouch
-        namespaceName: None
-        lineNumber: 2845
-        charNumber: 0
-        stackLabel: UICamera.ProcessTouch()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2845'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessTouch()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2845
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 476
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2843:   if (currentTouch.pressed != null)'
-        - '2844:   {'
-        - '2845:       if (released) ProcessRelease(isMouse, drag);'
-        - '2846:       ProcessPress(pressed, click, drag);'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2268
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2268
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessMouse
-        namespaceName: None
-        lineNumber: 2268
-        charNumber: 0
-        stackLabel: UICamera.ProcessMouse()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2268'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessMouse()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2268
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 478
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2267:       // Process the mouse events'
-        - '2268:       ProcessTouch(pressed, unpressed);'
-        - '2269:   }'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2382
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2382
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessTouches
-        namespaceName: None
-        lineNumber: 2382
-        charNumber: 0
-        stackLabel: UICamera.ProcessTouches()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2382'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessTouches()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2382
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 489
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2380:   }'
-        - '2382:   if (useMouse) ProcessMouse();'
-        - '2383:   #if UNITY_EDITOR'
-        - '2384:   else if (GetInputTouch == null) ProcessFakeTouches();'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2082
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2082
-        instanceID: -1
-        className: UICamera
-        methodName: ProcessEvents
-        namespaceName: None
-        lineNumber: 2082
-        charNumber: 0
-        stackLabel: UICamera.ProcessEvents()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2082'
-        stackLabelContent:
-          m_Text: <b>UICamera.ProcessEvents()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2082
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 479
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2081:   // Process touch events first'
-        - '2082:   if (useTouch) ProcessTouches();'
-        - '2083:   else if (useMouse) ProcessMouse();'
-        sourceCodeUpdated: 1
-        showSource: 1
-      - fileName: Assets/NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssets: NGUI/Scripts/UI/UICamera.cs
-        fileNameWithoutAssetsPlusLineNumber: NGUI/Scripts/UI/UICamera.cs:2041
-        fileNameWithoutPath: UICamera.cs
-        fileNameWithoutPathPlusLineNumber: UICamera.cs:2041
-        instanceID: -1
-        className: UICamera
-        methodName: Update
-        namespaceName: None
-        lineNumber: 2041
-        charNumber: 0
-        stackLabel: UICamera.Update()
-        stackLabel2: '    Assets/NGUI/Scripts/UI/UICamera.cs:2041'
-        stackLabelContent:
-          m_Text: <b>UICamera.Update()</b>    Assets/NGUI/Scripts/UI/UICamera.cs:2041
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 434
-        stackLabelHeight: 25
-        stackSourceLineHeight: 17
-        sourceCode:
-        - '2039:           if (!handlesEvents) return;'
-        - '2040:   #endif'
-        - '2041:   if (processEventsIn == ProcessEventsIn.Update) ProcessEvents();'
-        - '2042:   }'
+        - '56:           health--;'
+        - '57:       }'
+        - '58:       Debug.Log(other.name + "colision");'
+        - '59:   }'
+        - '60:   public void Teleport(Transform target)'
         sourceCodeUpdated: 1
         showSource: 1
       ignoredStackEntries: []
