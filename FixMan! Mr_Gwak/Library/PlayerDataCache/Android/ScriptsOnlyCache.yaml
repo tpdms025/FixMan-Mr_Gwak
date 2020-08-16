@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Blink
     - GameManager
     - Grid
     - GridManager
@@ -8,16 +9,26 @@ ScriptsOnlyBuild:
     - NGUIFont
     - Node
     - Player
+    - ResultWindow
     - SoundManager
+    - Title
     - TopPanel
+    - TouchTap
+    - TweenPosition
+    - TweenRotation
+    - TweenScale
+    - UI2DSprite
     - UIButton
     - UICamera
     - UILabel
     - UIManager
     - UIPanel
+    - UIPlaySound
+    - UIPlayTween
     - UIRoot
     - UISlider
     - UISprite
+    - UIWidget
     ConsolePro.Editor.dll:
     - FlyingWormConsole3.ConsolePro3Window
     Unity.Rider.Editor.dll:
@@ -52,9 +63,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -67,42 +86,64 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 11330}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 12182}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 12394}
+      Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 12424}
+      Script: {instanceID: 11848}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12040}
     - Class: 114
-      Script: {instanceID: 12912}
+      Script: {instanceID: 12126}
     - Class: 114
-      Script: {instanceID: 13002}
+      Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 13292}
+      Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 13326}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 13392}
+      Script: {instanceID: 12430}
     - Class: 114
-      Script: {instanceID: 13414}
+      Script: {instanceID: 12584}
     - Class: 114
-      Script: {instanceID: 13552}
+      Script: {instanceID: 12606}
+    - Class: 114
+      Script: {instanceID: 12690}
+    - Class: 114
+      Script: {instanceID: 12706}
+    - Class: 114
+      Script: {instanceID: 12920}
+    - Class: 114
+      Script: {instanceID: 13010}
+    - Class: 114
+      Script: {instanceID: 13300}
+    - Class: 114
+      Script: {instanceID: 13334}
+    - Class: 114
+      Script: {instanceID: 13400}
+    - Class: 114
+      Script: {instanceID: 13422}
+    - Class: 114
+      Script: {instanceID: 13468}
+    - Class: 114
+      Script: {instanceID: 13560}
+    - Class: 114
+      Script: {instanceID: 13596}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -115,7 +156,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: faf984d28059788a4dbf35c8f8385ecd
+      Hash: 5b13ccca3234596611b7269e2bf2d033
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Grid
@@ -157,10 +198,16 @@ ScriptsOnlyBuild:
     className: UIPanel
   - hash:
       serializedVersion: 2
-      Hash: 38063dbd31f046ca9eb714d77f6f67a9
+      Hash: 7b80621fc10ed9c8c77b7d62a513c7ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Blink
   - hash:
       serializedVersion: 2
       Hash: e0698f82fca4a6d84f054e85baf01f48
@@ -451,6 +498,12 @@ ScriptsOnlyBuild:
     className: UIDraggableCamera
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadeInOut
+  - hash:
+      serializedVersion: 2
       Hash: b757b9b6542a78ab80272c109dd5b3e0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -539,6 +592,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TweenFOV
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TouchTap
   - hash:
       serializedVersion: 2
       Hash: 00fe22251866b55c79b945eefd0d12c8
@@ -679,7 +738,7 @@ ScriptsOnlyBuild:
     className: InvAttachmentPoint
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TopPanel
@@ -739,7 +798,7 @@ ScriptsOnlyBuild:
     className: UIInput
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 3a239508e1810fc692b35b64aef61a6a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager
@@ -785,6 +844,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIPopupList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ResultWindow
   - hash:
       serializedVersion: 2
       Hash: ceab607b5c6b3049e9c43ff476601811
@@ -907,7 +972,7 @@ ScriptsOnlyBuild:
     className: UIGrid
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: c559190162db221328a31c674a763976
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -1117,7 +1182,7 @@ ScriptsOnlyBuild:
     className: UIKeyBinding
   - hash:
       serializedVersion: 2
-      Hash: 448bc73c8d73469406afd4da1cd07bf8
+      Hash: 9b18a32caed2276cbdc53adfe3e0b5ce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GridManager
@@ -1291,6 +1356,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Title
+  - hash:
+      serializedVersion: 2
       Hash: d5429fb4266f6b47dd315864cdf43aea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1316,4 +1387,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/PlayScene.unity
-  playerPath: C:/Users/admin/Desktop/FixMan! Mr_Gwak/APK/FixMan_APK/FixMan_secondTest.apk
+  playerPath: C:/Users/timep/Desktop/FixMan! Mr_Gwak_0816.apk

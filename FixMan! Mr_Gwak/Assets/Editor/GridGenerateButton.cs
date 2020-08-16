@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(Grid))]
 public class GridGenerateButton : Editor
 {
@@ -34,3 +35,4 @@ public class GridGenerateButton : Editor
     }
 
 }
+#endif

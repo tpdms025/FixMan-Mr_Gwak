@@ -28,6 +28,9 @@ public class SoundManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
+        sndTitle = Resources.Load("Sound/wikiki") as AudioClip;
+        sndPlayMode = Resources.Load("Sound/_Funny Dream_ - Royalty-free Music - Background Music") as AudioClip;
+        sndBoss = Resources.Load("Sound/pitter patter") as AudioClip;
     }
 
     private void Start()
