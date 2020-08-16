@@ -10,9 +10,10 @@ public class SoundManager : MonoBehaviour
 
 
     private AudioSource BGM;
-    public AudioClip sndTitle;
-    public AudioClip sndPlayMode;
-    public AudioClip sndBoss;
+
+    [SerializeField] private AudioClip sndTitle;
+    [SerializeField] private AudioClip sndPlayMode;
+    [SerializeField] private AudioClip sndBoss;
 
     private void Awake()
     {
@@ -33,4 +34,19 @@ public class SoundManager : MonoBehaviour
     {
         BGM = GetComponent<AudioSource>();
     }
+
+    #region PlaySound
+    public void PlayTitle()
+    {
+        BGM.clip = sndTitle;
+        BGM.Play();
+    }
+
+    public void PlayMode()
+    {
+        BGM.clip = sndPlayMode;
+        BGM.Play();
+    }
+
+    #endregion
 }

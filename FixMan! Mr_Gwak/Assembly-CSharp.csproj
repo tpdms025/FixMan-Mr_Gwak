@@ -236,8 +236,12 @@
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\UI\PauseWindow.cs" />
     <Compile Include="Assets\Scripts\UI\ResultWindow.cs" />
+    <Compile Include="Assets\Scripts\UI\Title.cs" />
     <Compile Include="Assets\Scripts\UI\TopPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\TouchTap.cs" />
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Utility\Blink.cs" />
+    <Compile Include="Assets\Scripts\Utility\FadeInOut.cs" />
     <Compile Include="Assets\Scripts\Utility\Vibration.cs" />
     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
@@ -285,31 +289,31 @@
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -483,10 +487,10 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data.SqliteClient">
-      <HintPath>C:/Users/admin/Documents/GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+      <HintPath>D:/SE_GitHub/FixMan-Mr_Gwak/FixMan! Mr_Gwak/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     #region Property
-
+    private Animator animator;
     private BoxCollider col;
 
     private int maxHp = 3;
@@ -45,7 +45,8 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        col = GetComponent<BoxCollider>();
+        animator = GetComponent<Animator>();
+        col = GetComponentInChildren<BoxCollider>();
         gridManager = GameObject.FindGameObjectWithTag("GridManager").GetComponent<GridManager>();
     }
 
@@ -67,17 +68,19 @@ public class Player : MonoBehaviour
     {
         if (gridManager.curNode == null) return;
 
+        //animator.SetBool("IsFill",true);
+        animator.SetTrigger("Fill");
+        //StartCoroutine(FillAnimation());
         if (gridManager.curNode.curFillCount < gridManager.curNode.fillCount)
         {
             gridManager.curNode.curFillCount++;
-            
-            //combo
 
-
-            //score up
             if (gridManager.curNode.curFillCount == gridManager.curNode.fillCount)
             {
-                GameManager.Inst.currentScore+= gridManager.curNode.score;
+                //combo up
+                //TODO:
+                //score up
+                GameManager.Inst.currentScore += gridManager.curNode.score;
             }
         }
         else
@@ -86,5 +89,30 @@ public class Player : MonoBehaviour
             //TODO:
             Debug.Log("ComboInit");
         }
+    }
+
+    private IEnumerator FillAnimation()
+    {
+        while (true)
+        {
+            Debug.Log(animator.GetCurrentAnimatorStateInfo(0).IsName("Player_Fill"));
+            Debug.Log(animator.GetCurrentAnimatorClipInfo(0)[0].clip.name);
+
+
+            AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
+            if (!clipInfo[0].clip.name.Contains("Player_Fill"))
+            {
+                yield return null;
+                continue;
+            }
+            float cliptime = clipInfo[0].clip.length;
+            yield return new WaitForSeconds(cliptime / animator.GetCurrentAnimatorStateInfo(0).speed);
+
+            Debug.Log("FillAnim End");
+            //animator.SetBool("IsFill", false);
+
+            yield return null;
+        }
+
     }
 }

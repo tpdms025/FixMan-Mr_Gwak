@@ -59,7 +59,7 @@ public class GridManager : MonoBehaviour
     {
         if (B_Zone.transform.localPosition.y <= startPos_AZone.y)
         {
-            if(curNode != null && curNode.transform.parent.gameObject == A_Zone)
+            if(curNode == null || (curNode != null && curNode.transform.parent.gameObject == A_Zone))
             {
                 selectLine.transform.SetParent(transform);
                 player.transform.SetParent(transform);

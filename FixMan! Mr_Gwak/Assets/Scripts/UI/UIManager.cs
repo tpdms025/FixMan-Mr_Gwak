@@ -6,11 +6,12 @@ using System;
 
 public class UIManager : MonoBehaviour
 {
-
+    public TouchTap tapPanel;
     public TopPanel topPanel;
 
     private void Awake()
     {
+        tapPanel = transform.Find("TapPanel").GetComponent<TouchTap>();
         topPanel = transform.Find("TopPanel").GetComponent<TopPanel>();
     }
 
