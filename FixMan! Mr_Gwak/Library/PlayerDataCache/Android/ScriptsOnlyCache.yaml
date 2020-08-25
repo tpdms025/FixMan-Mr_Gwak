@@ -198,7 +198,7 @@ ScriptsOnlyBuild:
     className: UIPanel
   - hash:
       serializedVersion: 2
-      Hash: 7b80621fc10ed9c8c77b7d62a513c7ce
+      Hash: 89e85b1413e91c308762e575b7dace42
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -738,7 +738,7 @@ ScriptsOnlyBuild:
     className: InvAttachmentPoint
   - hash:
       serializedVersion: 2
-      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
+      Hash: beae5301714ef51ce877f8fd16036b3f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TopPanel
@@ -972,7 +972,7 @@ ScriptsOnlyBuild:
     className: UIGrid
   - hash:
       serializedVersion: 2
-      Hash: c559190162db221328a31c674a763976
+      Hash: 839f1b274b951b008d8e3176ad930699
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -1387,4 +1387,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/PlayScene.unity
-  playerPath: C:/Users/timep/Desktop/FixMan! Mr_Gwak_0816.apk
+  playerPath: C:/Users/timep/Desktop/FixMan! Mr_Gwak/FixMan! Mr_Gwak_0823.apk

@@ -6,8 +6,8 @@ public class ResultWindow : MonoBehaviour
 {
     private GameObject bg;
     private TweenPosition vineSprite;
-    private TweenScale iCON_Victory;
-    private TweenScale iCON_Fail;
+    private GameObject iCON_Victory;
+    private GameObject iCON_Fail;
 
     private UILabel scoreLabel;
     private UILabel timeLabel;
@@ -19,8 +19,8 @@ public class ResultWindow : MonoBehaviour
     {
         bg = transform.Find("Background").gameObject;
         vineSprite = transform.Find("VineSprite").GetComponent<TweenPosition>();
-        iCON_Victory = transform.Find("ICON_Victory").GetComponent<TweenScale>();
-        iCON_Fail = transform.Find("ICON_Fail").GetComponent<TweenScale>();
+        iCON_Victory = transform.Find("ICON_Victory").gameObject;
+        iCON_Fail = transform.Find("ICON_Fail").gameObject;
 
         scoreLabel = bg.transform.Find("Score").GetComponentInChildren<UILabel>();
         timeLabel = bg.transform.Find("Time").GetComponentInChildren<UILabel>();
@@ -35,17 +35,22 @@ public class ResultWindow : MonoBehaviour
         lifeLabel.text = life.ToString();
         comboLabel.text = combo.ToString();
 
+        iCON_Victory.SetActive(false);
+        iCON_Fail.SetActive(false);
+
 
         //Tween
         bg.GetComponent<TweenPosition>().enabled = true;
         vineSprite.enabled = true;
         if (isSuccess)
         {
-            iCON_Victory.enabled = true;
+            iCON_Victory.SetActive(true);
+            iCON_Victory.GetComponent<TweenScale>().enabled = true;
         }
         else
         {
-            iCON_Fail.enabled = true;
+            iCON_Fail.SetActive(true);
+            iCON_Fail.GetComponent<TweenScale>().enabled = true;
         }
 
     }

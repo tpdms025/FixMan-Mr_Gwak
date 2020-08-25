@@ -10,7 +10,7 @@ public class TopPanel : MonoBehaviour
     private UILabel scoreLabel;
 
     [SerializeField] private float time = 100.0f;
-    private float curTime;
+    [HideInInspector] public float curTime;
 
     
 
@@ -24,7 +24,7 @@ public class TopPanel : MonoBehaviour
         curTime = time;
     }
 
-    private void Start()
+    public void StartTimer()
     {
         StartCoroutine(Timer());
     }
@@ -41,6 +41,8 @@ public class TopPanel : MonoBehaviour
 
         //game clear!
         //TODO:
+        GameManager.Inst.uIManager.OpenResult(true);
+
     }
 
     public void ChangeProgressBar()

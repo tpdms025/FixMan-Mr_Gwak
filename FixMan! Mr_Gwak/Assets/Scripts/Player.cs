@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
                 _health = 0;
                 //gameOver
                 //TODO:
+                GameManager.Inst.uIManager.OpenResult(false);
             }
             else
             {
@@ -78,7 +79,7 @@ public class Player : MonoBehaviour
             if (gridManager.curNode.curFillCount == gridManager.curNode.fillCount)
             {
                 //combo up
-                //TODO:
+                combo+= gridManager.curNode.fillCount;
                 //score up
                 GameManager.Inst.currentScore += gridManager.curNode.score;
             }
@@ -86,7 +87,7 @@ public class Player : MonoBehaviour
         else
         {
             //combo Init
-            //TODO:
+            combo = 0;
             Debug.Log("ComboInit");
         }
     }

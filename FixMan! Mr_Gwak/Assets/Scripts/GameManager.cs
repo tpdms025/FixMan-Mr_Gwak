@@ -6,9 +6,10 @@ public class GameManager : MonoBehaviour
 {
 
     public UIManager uIManager;
+    public Player player;
 
     public int bestScore;
-    private int _currentScore;
+    [SerializeField]private int _currentScore;
     public int currentScore
     {
         get { return _currentScore; }
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
 
     static private GameManager instance = null;
     static public GameManager Inst

@@ -28,13 +28,16 @@ public class Title : MonoBehaviour
         yield return null;
 
         tween.playDirection = AnimationOrTween.Direction.Reverse;
+
         yield return new WaitForSeconds(1.0f);
+        uiManager.tapPanel.TapStart();
+        SoundManager.Inst.PlayMode();
 
         tween.Play();
         tween.onFinished.Clear();
         tween.onFinished.Add(new EventDelegate(this, "DisablePanel"));
-        tween.onFinished.Add(new EventDelegate(uiManager.tapPanel, "TapStart"));
-        tween.onFinished.Add(new EventDelegate(SoundManager.Inst, "PlayMode"));
+        //tween.onFinished.Add(new EventDelegate(uiManager.tapPanel, "TapStart"));
+        //tween.onFinished.Add(new EventDelegate(SoundManager.Inst, "PlayMode"));
     }
 
     private void DisablePanel()
